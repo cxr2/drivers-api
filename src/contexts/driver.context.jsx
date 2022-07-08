@@ -29,7 +29,7 @@ export const DriversProvider = (props) => {
   // const [search, setSearch] = useState("");
   // const { addToast } = useToasts();
 
-  const DRIVERS_ENDPOINT = "http://carsapp2050.herokuapp.com/api/v1/drivers";
+  const DRIVERS_ENDPOINT = "https://carsapp2050.herokuapp.com/api/v1/drivers";
 
   const fetchDrivers = useCallback(async () => {
     // console.log('loading', loading);

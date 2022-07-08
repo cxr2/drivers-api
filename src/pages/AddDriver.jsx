@@ -4,6 +4,8 @@ import DriverForm from "./../components/forms/DriverForm";
 import { DriversContext } from "./../contexts/driver.context";
 
 export default function AddDriver() {
+  // need to usecontext to add driver
+
   const { addDriver } = useContext(DriversContext);
   return (
     <>
@@ -12,5 +14,3 @@ export default function AddDriver() {
     </>
   );
 }
-
-//controller deals with mui in react-hook-form, keeps both happy

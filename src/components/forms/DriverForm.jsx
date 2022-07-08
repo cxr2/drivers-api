@@ -49,6 +49,7 @@ export default function DriverForm({ driver, submitHandler }) {
     /* "handleSubmit" will validate your inputs before invoking "onSubmit" */
     <form onSubmit={handleSubmit(submitFn)}>
       <div style={formRowStyle}>
+        {/* controller deals with mui in react-hook-form, keeps both happy */}
         <Controller
           control={control}
           name="firstname"
